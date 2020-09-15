@@ -16,7 +16,7 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    myString.index
+    string.index()
 
 
 def get_number_of_char(string: str, char: str) -> int:
