@@ -30,9 +30,9 @@ def get_number_of_char(string: str, char: str) -> int:
     return number
 
 
-def get_number_of_words(chaine: str, word: str) -> int:
+def get_number_of_words(sentence: str, word: str) -> int:
     number = -1
-    for i in chaine: 
+    for i in sentence: 
         if i == word: 
          number = number + 1
     return number
