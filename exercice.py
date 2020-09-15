@@ -19,7 +19,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     string.index(old_char)
     begin= string[:string.index(old_char)]
     end= string[string.index(old_char)+1:]
-    return begin+new_char
+    return begin+new_char+end
 
 
 def get_number_of_char(string: str, char: str) -> int:
